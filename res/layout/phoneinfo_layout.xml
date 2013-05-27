@@ -23,6 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PHONE SERVICE"
+                android:textStyle="bold"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
@@ -44,9 +45,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:background="@drawable/anh7"
+        android:background="@drawable/boxread"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="20dp"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -62,11 +66,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:text="DO YOU WANT TO \n REGISTER PHONE"
+                android:text="DO YOU WANT TO REGISTER PHONE?"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#000000"
-                android:textStyle="bold" />
-
+                android:textSize="15sp"
+                android:textStyle="bold" >
+                  <requestFocus />
+            </TextView>
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
@@ -109,7 +115,7 @@
                         android:enabled="false"
                         android:ems="10" >
 
-                        <requestFocus />
+                      
                     </EditText>
                 </TableRow>
 
@@ -183,28 +189,37 @@
                         android:ems="10" />
                 </TableRow>
             </TableLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ke" />
 
             <TableRow
                 android:id="@+id/tableRow1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:gravity="center_horizontal" >
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/btnYes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/btnok"
+                    android:background="@drawable/btnprofile"
+                    android:layout_marginRight="10dp"
                     android:ems="7"
+                    android:textStyle="bold"
                     android:text="YES" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btnNo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:background="@drawable/btnok"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btnprofile"
                     android:ems="7"
+                     android:textStyle="bold"
                     android:text="NO" />
             </TableRow>
         </LinearLayout>

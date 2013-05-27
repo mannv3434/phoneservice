@@ -41,6 +41,35 @@
             android:name="com.iii.phonservice.view.PhoneInfo"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
+        
+          <activity
+            android:name="com.iii.phonservice.view.RegisterLogin"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iii.phoneservice.login.LoginActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iii.phoneservice.login.RegisterActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+         <activity
+            android:name="com.iii.phonservice.view.ContactActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+           <activity
+            android:name="com.iii.phoneservice.viewmarket.MainActivity_Viewmarket"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+           <activity
+            android:name="com.iii.phoneservice.viewmarket.MainTabMarket"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+           <activity
+            android:name="com.iii.phoneservice.filter.FilterActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
     </application>
 
 </manifest>
